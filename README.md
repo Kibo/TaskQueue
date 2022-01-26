@@ -4,7 +4,7 @@ A parallel tasks queue with concurrency limit control.
 
 ## Install
 ```
-  $ git clone git@bitbucket.org:Kibo/express-bootstrap.git
+  $ git clone git@github.com:Kibo/TaskQueue.git
   $ cd taskQueue
   $ npm install
 ```
