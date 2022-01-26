@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",    
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "noImplicitThis": false,
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "outDir": "./build"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
